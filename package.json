@@ -8,5 +8,8 @@
   },
   "repository": "https://github.com/tehdb/cyr2lat.git",
   "author": "tehdb",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "jasmine-node": "~1.12.0"
+  }
 }
