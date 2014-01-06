@@ -1,0 +1,12 @@
+{
+  "name": "cyr2lat",
+  "version": "0.0.1",
+  "description": "renames files/directories in given directory and its subdirectories from cyrillic to latin",
+  "main": "cyr2lat.js",
+  "dependencies": {
+    "colors": "~0.6.2"
+  },
+  "repository": "https://github.com/tehdb/cyr2lat.git",
+  "author": "tehdb",
+  "license": "BSD"
+}
