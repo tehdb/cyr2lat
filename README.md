@@ -3,8 +3,8 @@
 node.js module to rename files/directories in given directory and its subdirectories from cyrillic to latin
 
 ## prerequisites
-	Node.js http://nodejs.org/
-	CoffeeScript http://coffeescript.org/
+Node.js http://nodejs.org/
+CoffeeScript http://coffeescript.org/
 
 
 ## install
