@@ -2,6 +2,11 @@
 
 node.js module to rename files/directories in given directory and its subdirectories from cyrillic to latin
 
+## prerequisites
+	Node.js http://nodejs.org/
+	CoffeeScript http://coffeescript.org/
+
+
 ## install
 ```bash
   npm install
@@ -9,9 +14,15 @@ node.js module to rename files/directories in given directory and its subdirecto
 
 ## usage
 ```bash
-# file-extension - exclude all files except those specified with the extension
-node cyr2lat.js path-to-diractory [file-extension]
+# EXTENSION - exclude all files except those specified with the extension
+coffee cyr2lat.coffee PATH-TO-DIR [EXTENSION]
 
-# example:
-node cyr2lat.js ./testdir txt
+## example:
+coffee cyr2lat.coffee ./testdir txt
 ```
+
+# run tests
+```bash
+jasmine-node --coffee --autotest spec
+```
+
