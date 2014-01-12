@@ -19,7 +19,7 @@ CoffeeScript http://coffeescript.org/
 # EXTENSION - exclude all files except those specified with the extension
 coffee cyr2lat.coffee PATH-TO-DIR [EXTENSION]
 
-## example:
+# example:
 coffee cyr2lat.coffee ./testdir txt
 ```
 
